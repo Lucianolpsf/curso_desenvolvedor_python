@@ -19,4 +19,4 @@ moeda_destino = input('Digite a moeda de destino (exemplo: USD, EUR, BRL): ').up
 resultado = CurrencyRates().convert(moeda_origem, moeda_destino, valor)
 
 # exibe o resultado na tela
-print(f'{valor} {moeda_origem} = {resultado} {moeda_destino}.')
+print(f'$ {valor:,.2f} {moeda_origem} = $ {resultado:,.2f} {moeda_destino}.')
