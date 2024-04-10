@@ -1,3 +1,9 @@
+'''
+Programador: Alex Machado Ribeiro
+Programa: Calendário
+Objetivo: exibir o calendário do ano atual.
+'''
+
 # importa bibliotecas de data e calendário
 import calendar
 from datetime import date
