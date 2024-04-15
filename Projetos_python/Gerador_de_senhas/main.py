@@ -9,5 +9,13 @@ Objetivo: gerar aleatoriamente uma senha segura.
 # importa bibliteca
 import secrets
 
-# imprime a senha gerada aleatoriamente
-print(secrets.token_urlsafe(16))
+while True:
+    confirma = input('Deseja gerar uma senha? "s" para sim ou Enter para encerrar o programa: ')
+
+    if confirma == 's':
+        # imprime a senha gerada aleatoriamente
+        print(secrets.token_urlsafe(16))
+        continue
+    else:
+        print('Programa encerrado!')
+        break
