@@ -21,3 +21,11 @@ Esta pasta reúne algoritmos envolvendo os conceitos de Programação Orientada 
 ## Projetos Python
 
 Esta pasta reúne algoritmos básicos executados em console que possuem funcionalidades que podem ser aplicadas em projetos do mundo real.
+
+## Versão do Python e pacotes utilizados no projeto
+
+A versão utilizada até o momento para a criação e execução desses algoritmos é a 3.12.2, guardada em um ambiente virtual local que não foi incluído no repositório (pasta .venv).
+
+Os pacotes utilizados se encontram no arquivo requirements.txt. Para instalá-los, execute o comando:
+
+pip install -r requirements.txt
