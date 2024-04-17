@@ -1,10 +1,12 @@
 # Códigos-fonte para o curso de Desenvolvedor Python
 
-Este repositório foi criado com o objetivo de concentrar uma lista de vários códigos-fontes diferentes para serem utilizados nas aulas do Curso de Desenvolvedor Python.
+Este repositório foi criado com o objetivo de concentrar uma lista de vários códigos-fontes diferentes para serem utilizados nas aulas do Curso de Desenvolvedor Python. Ele está em constante evolução, e receberá novos commits sempre que possível, ou quando for necessário, acrescentando novos códigos-fonte ou melhorando os já existentes.
 
-Este repositório está em constante evolução, e receberá novos commits sempre que possível, ou quando for necessário, acrescentando novos códigos-fonte ou melhorando os já existentes.
+No momento em que este README foi criado, o repositório foi dividido em 3 pastas, cada uma delas reunindo vários códigos-fontes para serem reaproveitados em sala. As pastas são:
 
-No momento em que este README foi criado, o repositório foi dividido em 3 pastas, cada uma delas reunindo vários códigos-fontes para serem reaproveitados em sala. As pastas são: Lógica de Programação; Orientação a Objetos; e Projetos Python.
+- Lógica de Programação;
+- Orientação a Objetos;
+- Projetos Python.
 
 Futuramente, serão acrescentados novas pastas, como a de inclusão de pacotes externos, análise de dados, e jupyter notebooks, por enquanto.
 
