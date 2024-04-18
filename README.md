@@ -61,4 +61,4 @@ A versão utilizada até o momento para a criação e execução desses algoritm
 
 Os pacotes utilizados se encontram no arquivo requirements.txt. Para instalá-los, execute o comando:
 
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
