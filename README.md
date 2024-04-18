@@ -12,15 +12,48 @@ Futuramente, serão acrescentados novas pastas, como a de inclusão de pacotes e
 
 ## Lógica de programação
 
-Esta pasta reúne algoritmos em Python utliizados na disciplina de Lógica de Programação, envolvendo: inputs, outputs, variáveis, oepradores, estruturas de decisão, laços de repetição, vetores, listas, tuplas, dicionários, operações envolvendo estruturas de dados básicas, entre outros...
+Esta pasta reúne algoritmos em Python utliizados na disciplina de Lógica de Programação, envolvendo:
+- inputs
+- outputs
+- variáveis
+- operadores
+- estruturas de decisão
+- laços de repetição
+- vetores
+- listas
+- tuplas
+- dicionários
+- operações envolvendo estruturas de dados básicas
+- entre outros...
 
 ## Orientação a Objetos
 
-Esta pasta reúne algoritmos envolvendo os conceitos de Programação Orientada a Objetos (POO), como classes, atributos, métodos, instância de objetos, construtores, classes abstratas, métodos especiais, métodos de acesso, herança, encapsulamento, polimorfismo, entre outros...
+Esta pasta reúne algoritmos envolvendo os conceitos de Programação Orientada a Objetos (POO), como:
+- classes
+- atributos
+- métodos
+- instância de objetos
+- construtores
+- classes abstratas
+- métodos especiais
+- métodos de acesso
+- herança, encapsulamento
+- polimorfismo
+- entre outros...
 
 ## Projetos Python
 
 Esta pasta reúne algoritmos básicos executados em console que possuem funcionalidades que podem ser aplicadas em projetos do mundo real.
+
+Projetos listados até o momento:
+- Barra de Progresso.
+- Calendário.
+- Conversor de Moedas.
+- Gerador de Senhas.
+- Listar Programas do PC.
+- YouTube Downloader.
+
+Futuramente serão acrescentados novos projetos, e os atuais serão melhorados.
 
 ## Versão do Python e pacotes utilizados no projeto
 
@@ -28,4 +61,4 @@ A versão utilizada até o momento para a criação e execução desses algoritm
 
 Os pacotes utilizados se encontram no arquivo requirements.txt. Para instalá-los, execute o comando:
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
