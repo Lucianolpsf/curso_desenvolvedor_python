@@ -18,12 +18,16 @@ while True:
         moeda_origem = input('Digite a moeda de origem (exemplo: USD, EUR, BRL): ').upper() # recebe a moeda de origem desejada e converte para caixa alta
         moeda_destino = input('Digite a moeda de destino (exemplo: USD, EUR, BRL): ').upper() # recebe a moeda de destino desejada e converte para caixa alta
 
-        # faz a conversão
-        resultado = CurrencyRates().convert(moeda_origem, moeda_destino, valor)
+        try:
+            # faz a conversão
+            resultado = CurrencyRates().convert(moeda_origem, moeda_destino, valor)
 
-        # exibe o resultado na tela
-        print(f'$ {valor:,.2f} {moeda_origem} = $ {resultado:,.2f} {moeda_destino}.')
-        continue
+            # exibe o resultado na tela
+            print(f'$ {valor:,.2f} {moeda_origem} = $ {resultado:,.2f} {moeda_destino}.')
+        except:
+            print('Não foi possível fazer a conversão.')
+        finally:
+            continue
     else:
         print('Programa encerrado.')
         break

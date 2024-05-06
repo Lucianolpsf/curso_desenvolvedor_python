@@ -6,27 +6,34 @@ Objetivo: baixar um vídeo do youtube.
 
 # NOTE: precisa instalar o pacote pytube: pip install pytube
 
+import time
 from pytube import YouTube
 from pytube.cli import on_progress # barra de progresso
 
 # função para baixar o vídeo do youtube
 def salvar_video(link_do_video):
     # mensagem de espera
-    print('Baixando vídeo...')
+    print('Tentando baixar vídeo...')
+    time.sleep(2)
 
     # NOTE: após a mensagem de baixando o vídeo, o progresso irá demorar um pouco para aparecer. Paciência...
 
-    # captura o caminho do vídeo do youtube e exibe a barra de progresso
-    yt = YouTube(link_do_video, on_progress_callback=on_progress)
+    try:
+        # mensagem de espera
+        print('Baixando vídeo...')
+        # captura o caminho do vídeo do youtube e exibe a barra de progresso
+        yt = YouTube(link_do_video, on_progress_callback=on_progress)
 
-    # pega a maior resolução possível
-    video_stream = yt.streams.get_highest_resolution()
+        # pega a maior resolução possível
+        video_stream = yt.streams.get_highest_resolution()
 
-    # baixa o vídeo no diretório do projeto
-    video_stream.download()
+        # baixa o vídeo no diretório do projeto
+        video_stream.download()
 
-    # mensagem final a ser exibida
-    return '\nDownload completo!'
+        # mensagem final a ser exibida
+        return '\nDownload completo!'
+    except:
+        return 'Não foi possível baixar o vídeo.'
 
 # entra no loop
 while True:
